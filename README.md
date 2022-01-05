@@ -25,3 +25,11 @@ Installing Prebuilt RT kernel supporting SPI with W5500 on Raspberry Pi 4
 *Check the kernel version*
 
     ~ $ uname -r
+    
+*Make extra ethernet connection with W5500 via SPI*
+
+    ~ $ sudo nano /boot/config.txt
+    
+*Type at the bottom of the file:*
+    
+    dtoverlay=w5500
