@@ -3,7 +3,7 @@ Installing Prebuilt RT kernel supporting SPI with W5500 on Raspberry Pi 4
 
     ~ $ cd /tmp
     /tmp $ wget -O RTkernel_W5500.tgz https://github.com/shkwon98/RPi4_PreemptRT_W5500/blob/main/RTkernel_W5500.tgz?raw=true
-    /tmp $ tar xzf rt-kernel.tgz
+    /tmp $ tar xzf RTkernel_W5500.tgz
     /tmp $ cd boot
     /tmp/boot $ sudo cp –rd * /boot/ 
     /tmp/boot $ cd ../lib 
