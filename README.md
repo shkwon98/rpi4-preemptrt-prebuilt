@@ -1,7 +1,7 @@
 # (Pre-built) Raspberry Pi 4 Preempt-RT Patch
 These steps will help you through the installation of preempt-rt on the **Raspberry Pi 4**. The kernel that is used is the 4.19.86 linux kernel.
 
-* This is a simplified version of [rpi4_preemptRT](https://github.com/shkwon98/rpi4_preemptRT) repository.
+* This is a simplified version of [rpi4-preemptrt](https://github.com/shkwon98/rpi4-preemptrt) repository.
 * It contains additional support as an option to use W5500 Ethernet network driver for users who need extra ethernet port on raspberry pi.
 <br>
 
@@ -22,7 +22,7 @@ These steps will help you through the installation of preempt-rt on the **Raspbe
 1. Download the pre-built kernel
 ```console
 pi@raspberrypi:~$ cd /tmp
-pi@raspberrypi:/tmp$ wget -O RTkernel_W5500.tgz https://github.com/shkwon98/rpi4_preemptRT_pre-built/blob/main/RTkernel_W5500.tgz?raw=true
+pi@raspberrypi:/tmp$ wget -O RTkernel_W5500.tgz https://github.com/shkwon98/rpi4-preemptrt-prebuilt/blob/main/RTkernel_W5500.tgz?raw=true
 ```
 
 2. Inside the raspberry pi, unpack the .tgz and copy it
@@ -60,4 +60,4 @@ pi@raspberrypi:~$ uname -r
 <br>
 
 ## BENCHMARK:
-* [Cyclictest benchmark](https://github.com/shkwon98/Cyclictest)
+* [cyclictest benchmark](https://github.com/shkwon98/cyclictest)
